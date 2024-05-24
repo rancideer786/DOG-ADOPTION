@@ -1,0 +1,134 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color for the entire page */
+  body .container{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    background-color: #fff5df;
+    margin: 50px;
+  }
+  
+  /* Main content container */
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(55, 55, 55);
+    border-radius: 20px;
+    padding: 2rem;
+    height: auto;
+  }
+  .searchbox{
+    display: flex;
+    justify-content: center;
+  }
+  .searchbox input{
+    border:1px solid #1615155a;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    height: 50px;
+    width:300px;
+  }
+  .searchbox button{
+    height:50px ;
+    background-color: rgb(57, 133, 62);
+    border: #ffffff;
+    padding: 5px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  /* Dog card styles */
+  .dog-card {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+  .dogify{
+    display: flex;
+
+  }
+  .score{
+    margin: 10px;
+  }
+  .dog-card img {
+    max-width: 80%;
+    border-radius: 4px;
+  }
+  
+  .dog-card h2 {
+    font-size: 1.9rem;
+    margin-left:0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .dog-card p {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  /* Responsive styles */
+  @media screen and (max-width: 768px) {
+    .container{
+        margin: 0;
+        padding: 0;
+    }
+    .dogify{
+        flex-direction: column;
+        margin: 0;
+    }
+    .content{
+        flex-wrap: wrap;
+    }
+  }
+  .content{
+    display: flex;
+    justify-content: center;
+    color: #515151;
+    margin: 60px;
+    padding: 10px;
+    gap: 10px;
+    text-align: justify;
+  }
+  .content ol{
+    color: #333;
+    margin: 20px;
+    line-height: 2;
+  }
+  .content p{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+  }
+  .content video{
+    height: 500px;
+    width: 500px;
+  }
+  .egg{
+    color: brown;
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ffc7dc3d;
+
+  }
